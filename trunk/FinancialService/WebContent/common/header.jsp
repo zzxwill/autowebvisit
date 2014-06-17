@@ -22,7 +22,7 @@ body {
 	background-color: #FFF;
 }
 </style>
-<link href="<%=path%>/css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 a:link {
 	text-decoration: none;
@@ -77,19 +77,20 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body text="#333333" link="#999999" vlink="#999999" alink="#999999" onload="MM_preloadImages('<%=path%>/images/an012.jpg','<%=path%>/images/an022.jpg')">
+<body text="#333333" link="#999999" vlink="#999999" alink="#999999" onload="MM_preloadImages('../images/an012.jpg','../images/an022.jpg')">
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="top">
   <tr>
     <td height="135"><table width="945" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td width="14" height="135">&nbsp;</td>
-        <td width="322"><img src="<%=path%>/images/logo.jpg" width="263" height="83" /></td>
+        <td width="322"><img src="../images/logo.jpg" width="263" height="83" /></td>
         <td width="238">&nbsp;</td>
         <td width="422" align="right"><table width="407" border="0" cellspacing="0" class="top2">
           <tr>
             <td height="135" valign="top"><table width="99%" border="0">
               <tr>
-                <td height="28">首 页&nbsp; |&nbsp; 注 册&nbsp; |&nbsp; 登 录&nbsp; |&nbsp; 安全保障&nbsp; |&nbsp; 帮助中心&nbsp; |&nbsp; 加入收藏 <a href="#"></a></td>
+               <td height="28">首 页&nbsp; |&nbsp; 注 册&nbsp; |&nbsp; 登 录&nbsp; |&nbsp; 安全保障&nbsp; |&nbsp; 帮助中心&nbsp; |&nbsp; 加入收藏 <a href="#"></a></td>
+               
               </tr>
               <tr>
                 <td>&nbsp;</td>
