@@ -44,17 +44,9 @@
 					<li><a href="#panel-outpatient" data-toggle="tab"
 						contenteditable="true" style="cursor: pointer">出诊时间管理</a></li>
 					
-				<!-- 	<li><a href="#panel-user" data-toggle="tab"
+					<li><a href="#panel-user" data-toggle="tab"
 						contenteditable="true" style="cursor: pointer">用户信息</a></li>
-					
-					<li class=""><a href="#panel-shop" data-toggle="tab"
-						contenteditable="true" style="cursor: pointer">店铺信息</a></li>
-					
-					<li class=""><a href="#panel-financial" data-toggle="tab"
-						contenteditable="true" style="cursor: pointer">财务信息</a></li>
-					
-					<li class=""><a href="#panel-chart" data-toggle="tab"
-						contenteditable="true" style="cursor: pointer">统计报表</a></li> -->
+				
 					<table align="right">
 						<tr>
 							<td>Welcome&nbsp;,&nbsp;<%=loginedUserName %>&nbsp;!&nbsp;&nbsp;&nbsp;
@@ -118,20 +110,7 @@
 						<%@ include file="../admin/editUser.jsp"%>
 					</div>
 
-					<%//商店信息 %>
-					<div class="tab-pane" id="panel-shop">
-						<%@ include file="../admin/insertShop.jsp"%>
-						<%@ include file="../admin/editShop.jsp"%>
-					</div>
-
-					<%//财务信息 %>
-					<div class="tab-pane" id="panel-financial">
-						<%@ include file="../admin/insertFinancial.jsp"%>
-						<%@ include file="../admin/editFinancial.jsp"%>
-					</div>
-
-					<%//统计报表 %>
-					<div class="tab-pane" id="panel-chart">已删除</div>
+				
 
 				</div>
 				<%}else{ %>
@@ -147,20 +126,7 @@
 						<%@ include file="../common/editUser.jsp"%>
 					</div>
 
-					<%//商店信息 %>
-					<div class="tab-pane" id="panel-shop">
-						<%@ include file="../common/insertShop.jsp"%>
-						<%@ include file="../common/editShop.jsp"%>
-					</div>
-
-					<%//财务信息 %>
-					<div class="tab-pane" id="panel-financial">
-						<%@ include file="../common/insertFinancial.jsp"%>
-						<%@ include file="../common/editFinancial.jsp"%>
-					</div>
-
-					<%//统计报表 %>
-					<div class="tab-pane" id="panel-chart">已删除</div>
+				
 
 				</div>
 				<%} %>
