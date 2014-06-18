@@ -1,4 +1,15 @@
-<%@ include file="../common/header.jsp"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
+
+<%-- <%@ include file="../common/header.html"%> --%>
+<jsp:include page="../common/header.jsp" flush="true"/> 
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
 
 	<table width="100%" border="0" align="center" cellpadding="0"
 		cellspacing="0">
@@ -633,7 +644,7 @@
 										</table></td>
 								</tr>
 							</table></td>
-						<td background="../images/L7.jpg"><img src="../images/l7.jpg"
+						<td background="../images/l7.jpg"><img src="../images/l7.jpg"
 							width="27" height="179" /></td>
 					</tr>
 					<tr>
@@ -759,4 +770,5 @@
 	</table>
 	
 	
-<%@ include file="../common/footer.jsp"%>	
+<%-- <%@ include file="../common/footer.html"%>	 --%>
+<jsp:include page="../common/footer.jsp" flush="true"/>
